@@ -7,6 +7,7 @@ function init(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.which || e.detail);
   console.log(key)
+  debugger;
   if (key === code[index]) {
     keys.push(key)
     index++
