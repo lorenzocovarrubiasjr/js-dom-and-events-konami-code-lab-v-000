@@ -10,9 +10,6 @@ function init(e) {
     if (index === code.length){
         alert('You cracked the code, dawg! Congratulations!!!')
     }
-    else {
-
-    }
   } else {
     index = 0;
   }
