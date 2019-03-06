@@ -5,9 +5,12 @@ let index = 0;
 function init(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.which);
+    keys = [];
     console.log(key)
   if (key === code[index]) {
+    keys.push(key)
     index++
+    
     if (index === code.length){
       alert("You cracked the code!")
 
