@@ -13,7 +13,7 @@ function init(e) {
         alert('You cracked the code, dawg! Congratulations!!!')
     }
     else {
-      init(e)
+      index = 0;
     }
   }
 }
