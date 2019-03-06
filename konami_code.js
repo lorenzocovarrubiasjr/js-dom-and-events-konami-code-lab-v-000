@@ -10,14 +10,12 @@ function init(e) {
   if (key === code[index]) {
     keys.push(key)
     index++
-
     if (index === code.length){
       alert("You cracked the code!")
 
       index = 0;
     }
     else {
-      key = NaN;
       init(e)
     }
   }
