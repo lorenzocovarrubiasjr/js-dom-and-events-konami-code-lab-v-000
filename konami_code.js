@@ -11,8 +11,10 @@ function init(e) {
         alert('You cracked the code, dawg! Congratulations!!!')
     }
     else {
-      index = 0;
+      
     }
+  } else {
+    index = 0;
   }
 }
 
